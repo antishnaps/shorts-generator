@@ -11,14 +11,24 @@
       "sha256": "f98a719bbd19731fbe1c2e9854f014b8a9a9b70966a51f859610c446b1e42b39"
     },
     {
+      "path": "ContentBotPro-Free.spec",
+      "bytes": 2623,
+      "sha256": "78f7daa82552a6abfae733d46ef6d87e4940b1e64b25cb883941cb346d3e48b5"
+    },
+    {
       "path": "LICENSE",
       "bytes": 35149,
       "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
     },
     {
       "path": "README.md",
-      "bytes": 4341,
-      "sha256": "4c0d54f7453076e710bb592f9bfcb20adf3eaf65118f8bfdeea22a5db4d25f58"
+      "bytes": 4915,
+      "sha256": "9ced3e81d3ef3689d2a8c47e76932035d16d0e0712d64d1f23d944da966b0e6c"
+    },
+    {
+      "path": "SOURCE_ACCESS.md",
+      "bytes": 1994,
+      "sha256": "02fd1a2b6d05123a5ae53d373186a063bf5f731d47abd591713202d50c360d57"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -587,8 +597,8 @@
     },
     {
       "path": "docs/README.ru.md",
-      "bytes": 7522,
-      "sha256": "50ccdb6cfc721713b21a23f58992f657ea63b3fa80880930f036bbcd24657afb"
+      "bytes": 8043,
+      "sha256": "5a6e0c7cc2fe1df90fa62bdc6f5349ea3067cdb220f9b2671b718ffa2bef6dc6"
     },
     {
       "path": "docs/images/support.png",
@@ -599,6 +609,11 @@
       "path": "docs/images/workspace.png",
       "bytes": 61264,
       "sha256": "2d3494408fb6219f4efdc2ae044707d4d34bad34ace60832c0a7537c9cacf521"
+    },
+    {
+      "path": "docs/third_party/DENO_LICENSE.txt",
+      "bytes": 1074,
+      "sha256": "618d2ec42931b0c65673bbd17ef1ceb62643e02627cde70d16999f6e185f4717"
     },
     {
       "path": "gui/__init__.py",
@@ -876,6 +891,11 @@
       "sha256": "0d6fc00edf9f2e4fd6dbffc027bcc4debb6363215321358bc8cb65dd83e19d64"
     },
     {
+      "path": "tools/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
       "path": "tools/generate_brand_assets.py",
       "bytes": 3193,
       "sha256": "720c394effe6175551ada3567734446f0f414a700abc9a2a1a49da22eba5794a"
@@ -884,6 +904,21 @@
       "path": "tools/generate_support_qr.py",
       "bytes": 1029,
       "sha256": "c6ea052a3d1fc77e690031dc9780393168ff8c6337f3f29a9fae2dde0eacab43"
+    },
+    {
+      "path": "tools/package_portable.py",
+      "bytes": 6875,
+      "sha256": "301f6807ce1c305eac05ee1ce97b6008e7e078be087b84010ee7b215da7a4f8d"
+    },
+    {
+      "path": "tools/portable_runtime.py",
+      "bytes": 608,
+      "sha256": "9c3589b1875dde36c9e6126030a97b67689bb10f846cf9a2aea1874886b702fb"
+    },
+    {
+      "path": "tools/portable_smoke.py",
+      "bytes": 3944,
+      "sha256": "2d2fb4bcb3cd3457d0a510be02e121d40dc85f2dc9775da538a30a01f615e40b"
     }
   ]
 }

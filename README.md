@@ -22,12 +22,20 @@ clearance, platform approval, audience growth or revenue.
 
 ## Run on Windows
 
+For the ready-to-run build, download **ContentBotPro-Free-Windows-x64.zip** from
+[Releases](https://github.com/antishnaps/shorts-generator/releases), extract the
+whole archive into a writable folder, and open **ContentBotPro.exe**.
+Keep `_internal` next to the EXE. Python, FFmpeg/ffprobe and Deno are included.
+Online services still require internet access and your own API keys.
+
+### Run from source
+
 1. Install **Python 3.12 x64** from [python.org](https://www.python.org/downloads/).
 2. Download and extract the source package from [Releases](https://github.com/antishnaps/shorts-generator/releases).
 3. Run `start.bat`. It creates a local virtual environment and installs dependencies from PyPI.
 4. Add your own keys for the services you want to use in Settings.
 
-This release is a **source package**, not a standalone `.exe`.
+The separate source ZIP is for running with Python or developing the application.
 Alternatively, run from a clone:
 
 ```powershell
@@ -90,3 +98,5 @@ Application source: **GPL-3.0-only**, see [LICENSE](LICENSE).
 Dependencies have their own terms, listed in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
 Before distributing a binary build, audit the exact bundled dependencies and
 provide the required source and notices. The software is provided without warranty.
+Portable build licenses, exact package versions and source access instructions
+are included in `licenses/`, `DEPENDENCIES.json` and `SOURCE_ACCESS.md`.
