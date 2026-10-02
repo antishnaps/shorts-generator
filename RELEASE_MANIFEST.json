@@ -612,13 +612,13 @@
     },
     {
       "path": "docs/images/support.png",
-      "bytes": 30909,
-      "sha256": "a6182fc5684387b8bed54dec89296f7450bc39c676ab3e24fae87746e11cc47f"
+      "bytes": 29360,
+      "sha256": "17a598f3c7f5587a6a8b150d0cfec8361c445951612710f68b108aaea0404afe"
     },
     {
       "path": "docs/images/workspace.png",
-      "bytes": 61264,
-      "sha256": "2d3494408fb6219f4efdc2ae044707d4d34bad34ace60832c0a7537c9cacf521"
+      "bytes": 66491,
+      "sha256": "c26bbf94cacf7faffc71f2a6d98c0a094bdb643f48a1cac567b4b2a311d48088"
     },
     {
       "path": "docs/third_party/DENO_LICENSE.txt",
