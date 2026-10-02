@@ -21,9 +21,14 @@
       "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
     },
     {
+      "path": "QUICKSTART.txt",
+      "bytes": 3678,
+      "sha256": "6d9a03c80f61fd2b273b9cc705ad809080f560d7d7378e2f16dea78b8e3d3078"
+    },
+    {
       "path": "README.md",
-      "bytes": 4915,
-      "sha256": "9ced3e81d3ef3689d2a8c47e76932035d16d0e0712d64d1f23d944da966b0e6c"
+      "bytes": 4359,
+      "sha256": "4a620fa7c95c7716613061689ff52505975c1607aeecb948c8ef23749e0985e8"
     },
     {
       "path": "SOURCE_ACCESS.md",
@@ -596,9 +601,14 @@
       "sha256": "c6557e5b370eada548adb3e6228961eef4c25f4ca2fdf68560ddf8472261a457"
     },
     {
+      "path": "docs/DEVELOPMENT.md",
+      "bytes": 2115,
+      "sha256": "4c44bb908adefe39f016873c0ed32435f2856b3c5c96e18ad76865c660d989e4"
+    },
+    {
       "path": "docs/README.ru.md",
-      "bytes": 8043,
-      "sha256": "5a6e0c7cc2fe1df90fa62bdc6f5349ea3067cdb220f9b2671b718ffa2bef6dc6"
+      "bytes": 8031,
+      "sha256": "da0f0eed04d50c09e6f78e2dc8f6f1f173a57d23ab9c02583f161e4c81f43070"
     },
     {
       "path": "docs/images/support.png",
@@ -907,8 +917,8 @@
     },
     {
       "path": "tools/package_portable.py",
-      "bytes": 6875,
-      "sha256": "301f6807ce1c305eac05ee1ce97b6008e7e078be087b84010ee7b215da7a4f8d"
+      "bytes": 6085,
+      "sha256": "81a08190492de46c64c35466aa84e38bb56172533f3791b6b931fe7f715fadc3"
     },
     {
       "path": "tools/portable_runtime.py",

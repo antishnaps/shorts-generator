@@ -86,22 +86,12 @@ def package(source: Path, dist: Path, archive: Path) -> dict:
         raise RuntimeError('FFmpeg provenance and license notices are required')
     shutil.copytree(runtime_info, licenses / 'ffmpeg')
     (dist / 'DEPENDENCIES.json').write_text(json.dumps(inventory, indent=2), encoding='utf-8')
-    (dist / 'README.txt').write_text(
-        'ContentBot Pro Free | Windows 10/11 x64\n\n'
-        '1. Extract the whole archive into a writable folder.\n'
-        '2. Open ContentBotPro.exe. Keep the _internal folder next to it.\n'
-        '3. Add your own API keys in Settings where required.\n'
-        'Python, FFmpeg/ffprobe and Deno are included. No activation.\n'
-        'Internet is required for online AI, voice and media services.\n'
-        'Fonts and optional Vosk recognition models depend on your system.\n'
-        'This build is not code-signed. Do not disable antivirus protection.\n\n'
-        'Распакуйте ВСЮ папку и запустите ContentBotPro.exe.\n'
-        'Python устанавливать не нужно. Папку _internal не удаляйте.\n'
-        'Для онлайн-сервисов нужны интернет и собственные API-ключи.\n\n'
-        'Source, build scripts and receiving details:\n'
-        'https://github.com/antishnaps/shorts-generator\n'
-        'GPL-3.0-only. Third-party licenses: licenses/, DEPENDENCIES.json.\n'
-        'Matching source and build instructions: see SOURCE_ACCESS.md.\n', encoding='utf-8')
+    guide = (source / 'QUICKSTART.txt').read_text(encoding='utf-8')
+    (dist / 'README.txt').write_text(guide + '\n\n'
+        'Windows 10/11 x64. Fonts and optional Vosk models are not bundled.\n'
+        'Not code-signed. Do not disable antivirus protection.\n'
+        'GPL-3.0-only. Licenses: licenses/ and DEPENDENCIES.json.\n'
+        'Matching source and build instructions: SOURCE_ACCESS.md.\n', encoding='utf-8')
     files = release_files(dist)
     forbidden = {'config.json', 'config.json.backup', '.env', 'license.key', 'youtube_cookies.txt',
                  'activation_server.json', 'youtube_oauth_client.json'}

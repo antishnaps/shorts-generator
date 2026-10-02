@@ -1,0 +1,51 @@
+CONTENTBOT PRO FREE — ПЕРВЫЙ РОЛИК
+
+1. Распакуйте всю папку и запустите ContentBotPro.exe.
+   Python устанавливать не нужно. Папку _internal не удаляйте.
+
+2. Получите свой ключ Gemini в Google AI Studio:
+   https://aistudio.google.com/apikey
+   Войдите через Google, откройте API Keys и создайте ключ для проекта.
+   Для старта проверьте тариф Free; платный Set up billing не нужен.
+   Бесплатные модели ограничены квотами и доступностью по регионам:
+   https://ai.google.dev/gemini-api/docs/billing
+   https://ai.google.dev/gemini-api/docs/available-regions
+
+3. В программе: Настройки → API-ключи → Показать.
+   Вставьте ключ в поле Google Gemini, нажмите Тест и Сохранить настройки.
+   Не публикуйте ключ и не отправляйте другим файл config.json.
+
+4. В Генерации задайте тему, язык и один короткий ролик.
+   Для собственного сценария используйте Кастомный текст.
+
+5. В Видео → Умный микс видеоисточников включите
+   «Добавлять видеоклипы в видеоряд» и отметьте нужные источники.
+   Для первого теста оставьте только Локальные видео, выберите папку
+   с исходниками. В Аудио оставьте Edge TTS, выберите стиль субтитров
+   и нажмите Генерировать.
+
+ВОЗМОЖНОСТИ
+
+Тексты по теме и свои сценарии; локальные видео и изображения;
+YouTube, Pexels, Pixabay, Wikimedia Commons и смешанный видеоряд;
+озвучка, субтитры, переходы и эффекты; партии, серии и очередь.
+Публикация и аналитика своих YouTube-каналов — после отдельной авторизации.
+Freesound — опциональный источник звуков, не видеороликов.
+
+Для Pexels и Pixabay добавьте собственные ключи в Настройках.
+Онлайн-генерация текста и озвучка требуют интернета даже с локальным видео.
+Внешние платные API не становятся бесплатными вместе с программой.
+Проверяйте права на материалы, факты, произношение и субтитры перед публикацией.
+Ошибка 429 означает лимит запросов или квоту; несколько ключей одного
+проекта не создают независимые квоты.
+
+GUIDE / ИНСТРУКЦИЯ СО СКРИНШОТОМ
+https://github.com/antishnaps/shorts-generator/blob/main/docs/README.ru.md
+
+ENGLISH
+Extract the entire folder and run ContentBotPro.exe; keep _internal beside it.
+Create your Gemini key at https://aistudio.google.com/apikey, then add it in
+Settings → API keys → Show → Google Gemini → Test → Save Settings.
+Start with one video and local footage. Use Edge TTS for a simple voice setup.
+The app is free; external services have their own quotas, regions and prices.
+Full guide: https://github.com/antishnaps/shorts-generator
