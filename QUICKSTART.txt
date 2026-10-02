@@ -1,4 +1,48 @@
-CONTENTBOT PRO FREE — ПЕРВЫЙ РОЛИК
+CONTENTBOT PRO FREE — YOUR FIRST VIDEO
+
+English guide: https://github.com/antishnaps/shorts-generator
+Русская инструкция ниже / Russian version below.
+
+1. Extract the entire folder and open ContentBotPro.exe.
+   Python is included. Keep the _internal folder beside the EXE.
+
+2. Get your Gemini API key in Google AI Studio:
+   https://aistudio.google.com/apikey
+   Sign in with Google, open API Keys and create a key for your project.
+   For this quickstart, check that your project uses the Free tier.
+   You do not need to enable Set up billing.
+   Free models have quotas and regional availability limits:
+   https://ai.google.dev/gemini-api/docs/billing
+   https://ai.google.dev/gemini-api/docs/available-regions
+
+3. In the app, open Settings → API keys → Show.
+   Paste the key into Google Gemini, click Test, then Save Settings.
+   Keep your key private; do not share config.json.
+
+4. In Generation, choose a topic, content language and one short video.
+   For your own script, use Custom text.
+
+5. In Video → Smart video source mix, enable
+   Add video clips to the timeline and select your sources.
+   For a first test, select only Local videos and choose your footage folder.
+   Keep Edge TTS in Audio, choose a subtitle style and click Generate.
+
+WHAT YOU CAN MAKE
+
+Videos from a topic or your script; local footage and images;
+YouTube, Pexels, Pixabay, Wikimedia Commons and mixed footage;
+voiceover, subtitles, transitions and effects; batches, series and a queue.
+Publishing and analytics for your YouTube channels require separate authorization.
+Freesound is an optional source of sounds, not videos.
+
+Pexels and Pixabay require your own keys in Settings.
+Online text generation and voiceover need internet even with local footage.
+Paid external APIs do not become free with the app.
+Review media rights, facts, pronunciation and subtitles before publishing.
+Error 429 means a rate limit or quota; keys from the same project
+do not create independent quotas.
+
+РУССКАЯ ВЕРСИЯ — ПЕРВЫЙ РОЛИК
 
 1. Распакуйте всю папку и запустите ContentBotPro.exe.
    Python устанавливать не нужно. Папку _internal не удаляйте.
@@ -39,13 +83,5 @@ Freesound — опциональный источник звуков, не ви�
 Ошибка 429 означает лимит запросов или квоту; несколько ключей одного
 проекта не создают независимые квоты.
 
-GUIDE / ИНСТРУКЦИЯ СО СКРИНШОТОМ
+ИНСТРУКЦИЯ СО СКРИНШОТОМ
 https://github.com/antishnaps/shorts-generator/blob/main/docs/README.ru.md
-
-ENGLISH
-Extract the entire folder and run ContentBotPro.exe; keep _internal beside it.
-Create your Gemini key at https://aistudio.google.com/apikey, then add it in
-Settings → API keys → Show → Google Gemini → Test → Save Settings.
-Start with one video and local footage. Use Edge TTS for a simple voice setup.
-The app is free; external services have their own quotas, regions and prices.
-Full guide: https://github.com/antishnaps/shorts-generator
