@@ -1,0 +1,151 @@
+{
+  "user_settings": {
+    "ui_language": "Russian",
+    "gemini_api_keys": [],
+    "gemini_api_key": "",
+    "google_ai_api_key": "",
+    "heygen_api_key": "",
+    "pixabay_api_key": "",
+    "pexels_api_key": "",
+    "youtube_data_api_key": "",
+    "freesound_api_key": "",
+    "output_path": "generated",
+    "music_path": "music",
+    "media_path": "overlays/Subscribed animation.mov",
+    "theme": "интересная тема",
+    "language": "🇷🇺 Русский",
+    "persona_index": 7,
+    "strict_text_theme": true,
+    "seamless_loop": true,
+    "comment_bait": true,
+    "num_videos": 1,
+    "music_volume": 25,
+    "use_ai_image_generation": false,
+    "image_model": 0,
+    "strict_theme_following": true,
+    "scene_variety": true,
+    "num_unique_images": 3,
+    "unlimited_images": false,
+    "custom_images_folder": "",
+    "use_only_custom_images": false,
+    "use_reference_images": false,
+    "reference_images_folder": "assets/references",
+    "use_image_cache": false,
+    "save_to_image_cache": false,
+    "use_triple_template": false,
+    "enable_parallel_generation": true,
+    "num_workers": 4,
+    "video_settings": {
+      "width": 1080,
+      "height": 1920,
+      "resolution": "1080x1920 (FHD Вертикальное)",
+      "fps": 60,
+      "duration": 20,
+      "shot_min_duration": 1.5,
+      "shot_max_duration": 4,
+      "enable_animation": true,
+      "animation_type": "mix",
+      "animation_speed": 50,
+      "enable_transitions": true,
+      "transition_duration": 0.3,
+      "transition_style": "cinematic",
+      "transition_frequency": 0.6,
+      "cinematic_polish": true,
+      "video_effect": "auto",
+      "video_effect_intensity": 0.3,
+      "video_effect_probability": 0.4,
+      "music_volume": 0.25
+    },
+    "subtitle_settings": {
+      "enabled": true,
+      "font_size": 68,
+      "font_path": "Arial Black",
+      "position": "center",
+      "animated_subtitle": true,
+      "subtitle_animation": "auto",
+      "subtitle_fade_in_ms": 180,
+      "subtitle_fade_out_ms": 220,
+      "subtitle_typewriter_cps": 18,
+      "style_preset": "tiktok",
+      "highlight_color": "#00E5FF",
+      "outline_width": 7,
+      "shadow_depth": 5,
+      "max_words_per_subtitle": 2,
+      "max_chars_per_subtitle": 28,
+      "uppercase": true
+    },
+    "audio_settings": {
+      "enabled": true,
+      "provider": "edge",
+      "voice": "ru-RU-SvetlanaNeural",
+      "speech_speed": 1.0,
+      "edge_pitch_hz": 0,
+      "edge_volume_percent": 0,
+      "auto_fit_duration": true,
+      "music_volume": 0.25,
+      "use_music": false
+    },
+    "overlay_settings": {
+      "enabled": false,
+      "position": "Внизу справа",
+      "fullscreen": true
+    },
+    "veo3_settings": {
+      "enabled": false
+    },
+    "youtube_mixer_settings": {
+      "enabled": false,
+      "video_ratio": 0.6,
+      "clip_min_duration": 6,
+      "clip_max_duration": 8,
+      "min_resolution": 720,
+      "allow_clip_reuse_when_insufficient": true,
+      "semantic_fallback_retries": 4,
+      "semantic_fallback_max_seconds": 360,
+      "semantic_fallback_queries_per_attempt": 4,
+      "source_rejection_buffer": 1.85,
+      "source_budget_max_minutes": 75,
+      "download_timeout_seconds": 0,
+      "download_timeout_min_seconds": 180,
+      "download_timeout_max_seconds": 900,
+      "custom_videos_folder": null
+    },
+    "channel_analytics_settings": {
+      "enabled": false,
+      "use_for_generation": false,
+      "auto_sync": false,
+      "sync_days": 90,
+      "max_videos": 100,
+      "token_path": "youtube_cache/channel_analytics/analytics_token.json",
+      "accounts_path": "youtube_cache/channel_analytics/accounts.json",
+      "snapshot_path": "youtube_cache/channel_analytics/latest_snapshot.json"
+    },
+    "custom_texts_settings": {
+      "enabled": false,
+      "folder": null
+    },
+    "image_pool_settings": {
+      "use_image_pool": false,
+      "pool_path": null,
+      "pool_size": 50
+    },
+    "custom_description_text": {
+      "enabled": false,
+      "position": "end",
+      "text": "",
+      "ai_customize": false
+    },
+    "window_geometry": {
+      "x": 100,
+      "y": 100,
+      "width": 1200,
+      "height": 800
+    },
+    "app_preferences": {
+      "auto_save": true,
+      "remember_window": true,
+      "smooth_interface_motion": true
+    },
+    "pronunciation_fixes": {}
+  }
+}

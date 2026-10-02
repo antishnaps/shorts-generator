@@ -1,0 +1,4 @@
+-r requirements.txt
+pytest>=8,<9
+qrcode[pil]>=8,<9
+zxing-cpp>=2.3,<3
